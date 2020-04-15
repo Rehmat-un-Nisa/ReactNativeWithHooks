@@ -25,11 +25,14 @@ export default function HomeScreen({ navigation}) {
       title='Go to Color Demo'
       onPress={()=>navigation.navigate('Color')}
       />
-        <Button
+      <Button
       title='Go to Square Demo'
       onPress={()=>navigation.navigate('Square')}
       />
-       
+      <Button
+      title='Go to Input Demo'
+      onPress={()=>navigation.navigate('InputText')}
+      /> 
     </View>
   );
 }
