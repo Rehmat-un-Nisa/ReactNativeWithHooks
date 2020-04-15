@@ -9,7 +9,7 @@ const ColorAdjustor = ({ color, onIncrease, onDecrease}) => {
         onPress={()=>onIncrease()}
         />
         <Button
-        title={`Increase ${color}`}
+        title={`Decrease ${color}`}
         onPress={()=>onDecrease()}
         />
     </View>)
