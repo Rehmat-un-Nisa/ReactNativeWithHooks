@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, Button, TouchableOpacity} from 'react-native';
+import { StyleSheet, View, Button, TouchableOpacity} from 'react-native';
 
 export default function HomeScreen({ navigation}) {
 
@@ -9,22 +9,25 @@ export default function HomeScreen({ navigation}) {
       title="Go to Components Demo"
       onPress={() =>navigation.navigate('Components')}
       />
-      {/* <TouchableOpacity
-      onPress={()=>navigation.navigate('List')}
-      >
-        <Text>Go to List Screen</Text>
-      </TouchableOpacity> */}
       <Button
-      title='Go to List Screen'
+      title='Go to List Demo'
       onPress={()=>navigation.navigate('List')}
       />
       <Button
-      title='Go to Image Screen'
+      title='Go to Image Demo'
       onPress={()=>navigation.navigate('Image')}
       />
        <Button
-      title='Go to Counter Screen'
+      title='Go to Counter Demo'
       onPress={()=>navigation.navigate('Counter')}
+      />
+       <Button
+      title='Go to Color Demo'
+      onPress={()=>navigation.navigate('Color')}
+      />
+        <Button
+      title='Go to Square Demo'
+      onPress={()=>navigation.navigate('Square')}
       />
        
     </View>
